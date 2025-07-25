@@ -1,0 +1,51 @@
+name,type,sku,image_url,description,quantity,price
+"Wireless Mouse","Electronics","WM-1025-BLK","https://example.com/images/mouse.jpg","A responsive wireless mouse.",150,24.99
+"Gaming Keyboard","Electronics","GK-2030-RGB","https://example.com/images/keyboard.jpg","Mechanical keyboard with RGB backlighting.",80,89.99
+"USB-C Hub","Accessories","UCH-005-GRY","https://example.com/images/hub.jpg","A 7-in-1 USB-C hub with HDMI and SD card reader.",200,45.50
+"4K Webcam","Electronics","WC-4000-HD","https://example.com/images/webcam.jpg","Ultra HD 4K webcam with a built-in privacy shutter.",120,65.00
+"Ergonomic Office Chair","Office Supplies","EOC-550-BLK","https://example.com/images/chair.jpg","Comfortable chair with lumbar support for all-day use.",50,179.99
+"27-inch IPS Monitor","Electronics","MON-27-IPS","https://example.com/images/monitor.jpg","A vibrant 27-inch monitor with thin bezels.",95,299.99
+"Noise-Cancelling Headphones","Electronics","NCH-700-SLV","https://example.com/images/headphones.jpg","Over-ear headphones with active noise cancellation.",110,249.00
+"Portable SSD 1TB","Accessories","SSD-P10-BLK","https://example.com/images/ssd.jpg","A fast and durable 1TB portable solid-state drive.",75,119.99
+"Smart LED Light Bulb","Home Goods","SLB-E27-WHT","https://example.com/images/bulb.jpg","A Wi-Fi enabled, color-changing smart bulb.",350,14.99
+"Leather-bound Journal","Office Supplies","LBJ-A5-BRN","https://example.com/images/journal.jpg","A premium A5 journal with 200 lined pages.",250,19.95
+"Cotton Graphic T-Shirt","Apparel","TSH-GPH-MD","https://example.com/images/tshirt.jpg","A soft 100% cotton t-shirt with a modern design.",300,29.99
+"Stainless Steel Water Bottle","Home Goods","SSW-B24-BLU","https://example.com/images/bottle.jpg","A 24oz insulated water bottle that keeps drinks cold.",400,22.50
+"Bluetooth Speaker","Electronics","BTS-P30-RED","https://example.com/images/speaker.jpg","A compact and waterproof portable Bluetooth speaker.",180,39.99
+"Laptop Stand","Accessories","LPS-ADJ-ALU","https://example.com/images/stand.jpg","An adjustable aluminum laptop stand for better ergonomics.",130,34.95
+"Automatic Coffee Maker","Home Goods","ACM-12C-BLK","https://example.com/images/coffeemaker.jpg","A 12-cup programmable drip coffee maker.",60,59.99
+"The Art of Programming","Books","BK-CS-978","https://example.com/images/book.jpg","A comprehensive guide to software development principles.",150,49.99
+"Wool Blend Beanie","Apparel","WBN-OS-GRY","https://example.com/images/beanie.jpg","A warm and stylish beanie for cold weather.",220,18.00
+"Desk Organizer","Office Supplies","DO-WD-NAT","https://example.com/images/organizer.jpg","A wooden desk organizer with multiple compartments.",170,28.50
+"Fast Wireless Charger","Accessories","FWC-15W-BLK","https://example.com/images/charger.jpg","A 15W Qi-certified fast wireless charging pad.",210,25.99
+"High-Speed Blender","Home Goods","HSB-64-SLV","https://example.com/images/blender.jpg","A powerful blender for smoothies, soups, and more.",45,129.00
+"Gaming Mousepad","Accessories","GMP-XL-BLK","https://example.com/images/mousepad.jpg","An extra-large gaming mousepad with a non-slip base.",300,21.99
+"Smart Wi-Fi Plug","Home Goods","SWP-2PK-WHT","https://example.com/images/plug.jpg","Control any outlet with your voice or phone. 2-pack.",450,19.99
+"Fleece Zip-Up Hoodie","Apparel","FZH-LG-NVY","https://example.com/images/hoodie.jpg","A comfortable fleece hoodie with a full-zip front.",140,49.99
+"Gel Pen Set","Office Supplies","GPS-12-CLR","https://example.com/images/pens.jpg","A set of 12 vibrant gel pens for writing and drawing.",500,12.50
+"Smartphone Tripod","Accessories","SPT-FLX-BLK","https://example.com/images/tripod.jpg","A flexible tripod for smartphones with a remote shutter.",160,23.99
+"Yoga Mat","Home Goods","YGM-PRM-PPL","https://example.com/images/yogamat.jpg","An extra-thick, non-slip yoga mat for exercise.",190,32.00
+"HD Streaming Stick","Electronics","HDS-4K-V2","https://example.com/images/stick.jpg","Stream your favorite shows in 4K HDR. Easy setup.",115,49.99
+"Mystery Novel: The Silent Witness","Books","BK-MYS-456","https://example.com/images/novel.jpg","A thrilling mystery novel by a best-selling author.",230,15.99
+"Digital Kitchen Scale","Home Goods","DKS-11-SLV","https://example.com/images/scale.jpg","A precise digital scale for cooking and baking.",280,16.95
+"Canvas Backpack","Apparel","CBP-15L-GRN","https://example.com/images/backpack.jpg","A durable canvas backpack suitable for laptops.",100,55.00
+"Screen Cleaning Kit","Accessories","SCK-100-ML","https://example.com/images/cleaningkit.jpg","A kit for cleaning screens on all your devices.",400,11.99
+"Electric Kettle","Home Goods","EKT-17L-SS","https://example.com/images/kettle.jpg","A 1.7L stainless steel electric kettle with auto shut-off.",85,33.50
+"Classic Aviator Sunglasses","Apparel","CAS-G15-PL","https://example.com/images/sunglasses.jpg","Timeless aviator sunglasses with polarized lenses.",250,75.00
+"Whiteboard 24x36","Office Supplies","WBD-2436-WHT","https://example.com/images/whiteboard.jpg","A magnetic whiteboard with a marker and eraser.",70,44.99
+"VR Headset","Electronics","VRH-G2-WHT","https://example.com/images/vrheadset.jpg","An immersive virtual reality headset for gaming and media.",40,399.00
+"Air Purifier","Home Goods","APR-H13-WHT","https://example.com/images/purifier.jpg","A HEPA air purifier for small to medium-sized rooms.",65,89.99
+"Mechanical Pencil Set","Office Supplies","MPS-05-BLK","https://example.com/images/pencils.jpg","A set of 4 mechanical pencils with lead refills.",350,9.99
+"Power Bank 20000mAh","Accessories","PBK-20K-BLK","https://example.com/images/powerbank.jpg","A high-capacity power bank with fast charging ports.",125,42.99
+"Silk Pillowcase","Home Goods","SPC-QN-SLV","https://example.com/images/pillowcase.jpg","A 100% mulberry silk pillowcase for hair and skin.",180,27.50
+"Denim Jeans","Apparel","DNM-32-BLU","https://example.com/images/jeans.jpg","Classic straight-fit denim jeans.",160,69.99
+"USB Microphone","Electronics","USM-C1-BLK","https://example.com/images/microphone.jpg","A condenser microphone for streaming and recording.",90,54.99
+"The Minimalist Home","Books","BK-LF-123","https://example.com/images/book2.jpg","A guide to decluttering and simple living.",200,18.99
+"Ring Light with Stand","Accessories","RLS-10-ADJ","https://example.com/images/ringlight.jpg","A 10-inch ring light with an adjustable tripod stand.",110,31.50
+"Electric Toothbrush","Home Goods","ETB-SNC-BLK","https://example.com/images/toothbrush.jpg","A sonic electric toothbrush with multiple brushing modes.",130,49.95
+"Leather Belt","Apparel","LBT-34-BRN","https://example.com/images/belt.jpg","A genuine leather belt with a classic buckle.",240,35.00
+"Document Scanner","Office Supplies","DSC-P60-GRY","https://example.com/images/scanner.jpg","A portable document scanner for fast, on-the-go scanning.",55,99.00
+"Smartwatch","Electronics","SMW-G4-BLK","https://example.com/images/smartwatch.jpg","A smartwatch with fitness tracking and notifications.",80,199.00
+"Cable Management Box","Accessories","CMB-LG-WHT","https://example.com/images/cablebox.jpg","A large box to hide and organize messy cables.",200,26.99
+"Throw Blanket","Home Goods","TBK-FLC-GRY","https://example.com/images/blanket.jpg","A soft and cozy fleece throw blanket for your couch.",170,29.99
+"Cooking for Beginners","Books","BK-CK-789","https://example.com/images/cookbook.jpg","An essential cookbook with over 100 easy recipes.",190,22.99

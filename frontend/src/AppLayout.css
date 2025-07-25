@@ -1,0 +1,31 @@
+/* AppLayout.css */
+
+.layout-container {
+  padding: 2rem;
+  max-width: 100%;
+  margin: auto;
+}
+
+.app-title {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.app-nav {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.app-nav a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+}
+
+.app-nav a:hover {
+  text-decoration: underline;
+}
