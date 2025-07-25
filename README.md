@@ -97,13 +97,21 @@ This project uses **PostgreSQL** as the database with two main tables: `users` a
 
 ---
 
-I used AI for :
-Drafting the initial README structure.
-For well structured Swagger docs
-Reviewed potential edge cases in user registration, pagination, and token expiration logic.
-Writing and optimizing PostgreSQL schema, including triggers for updated_at.
-for best and secufePractices and Code Review
-Assisting with frontend CSS styling suggestions to improve layout.
+### I used AI for :
+-Drafting the initial README structure.
+
+-For well structured Swagger docs 
+
+-Reviewed potential edge cases in user registration, pagination, and token expiration logic .
+
+-For the catch blocks(http response codes)
+
+-Writing and optimizing PostgreSQL schema and Queries , including triggers for updated_at.
+
+-for best and secure Practices and Code Review
+
+-Assisting with frontend CSS styling suggestions to improve layout.
+
 
 ```bash
 git clone "https://github.com/ruthvik15/fi_ims"
