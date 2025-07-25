@@ -16,6 +16,9 @@ The API supports secure user authentication, role-based access control, full CRU
 ### 👥 Role-Based Access Control (RBAC)
 - `admin`: Can access all endpoints including analytics and all product updates
 - `user`: Can only manage their own products
+## 🧩 Database Schema
+
+This project uses **PostgreSQL** as the database with two main tables: `users` and `products`. Triggers are used to automatically update `updated_at` timestamps on every row update.
 
 ### 📦 Product Management
 - Add, edit, and fetch product details
