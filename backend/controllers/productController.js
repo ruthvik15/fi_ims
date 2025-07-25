@@ -1,6 +1,5 @@
 const pool = require('../db');
 
-// 🔹 Add Product
 const addProduct = async (req, res) => {
   const { name, type, sku, image_url, description, quantity, price } = req.body;
   const userId = req.user?.id;
@@ -32,7 +31,6 @@ const addProduct = async (req, res) => {
   }
 };
 
-// 🔹 Update Quantity
 const updateQuantity = async (req, res) => {
   const { id } = req.params;
   const { quantity } = req.body;
@@ -65,7 +63,7 @@ const updateQuantity = async (req, res) => {
   }
 };
 
-// 🔹 Get My or All Products
+
 const getmine = async (req, res) => {
   try {
     const query = req.user.role === 'admin'
@@ -87,9 +85,9 @@ const getPaginatedProducts = async (req, res) => {
 
   try {
     if (!page || !limit || isNaN(page) || isNaN(limit) || page <= 0 || limit <= 0) {
-      // Test mode or no pagination: return all products flat
+    
       const result = await pool.query('SELECT * FROM products ORDER BY id ASC');
-      return res.json(result.rows);  // ✅ flat array
+      return res.json(result.rows); 
     }
 
     const offset = (page - 1) * limit;
@@ -114,7 +112,7 @@ const getPaginatedProducts = async (req, res) => {
 };
 
 
-// 🔹 Recently Added Products
+
 const getRecentlyAddedProducts = async (req, res) => {
   const page = parseInt(req.query.page) || 1;
   const limit = parseInt(req.query.limit) || 10;
@@ -139,7 +137,7 @@ const getRecentlyAddedProducts = async (req, res) => {
   }
 };
 
-// 🔹 Most Valuable Products
+
 const getMostValuableProducts = async (req, res) => {
   const page = parseInt(req.query.page) || 1;
   const limit = parseInt(req.query.limit) || 10;
@@ -178,7 +176,7 @@ const productdetails=async (req, res) => {
   }
 }
 
-// 🔹 Category Breakdown
+
 const getCategoryBreakdown = async (req, res) => {
   try {
     const result = await pool.query(
@@ -195,7 +193,7 @@ const getCategoryBreakdown = async (req, res) => {
   }
 };
 
-// 🔹 Analytics Summary
+
 const getAnalytics = async (req, res) => {
   try {
     const [top, totalQty, productCount, userCount] = await Promise.all([

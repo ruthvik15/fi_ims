@@ -8,11 +8,11 @@ function generateToken(payload) {
   });
 }
 
-// ✅ Register Controller
+
 const register = async (req, res) => {
   const { username, password } = req.body;
 
-  // Trim and validate input
+
   if (!username?.trim() || !password?.trim()) {
     return res.status(400).json({ message: 'Username and password are required' });
   }
@@ -51,11 +51,10 @@ const register = async (req, res) => {
   }
 };
 
-// ✅ Login Controller
 const login = async (req, res) => {
   const { username, password } = req.body;
 
-  // Validate input
+
   if (!username?.trim() || !password?.trim()) {
     return res.status(400).json({ message: 'Username and password are required' });
   }
@@ -85,7 +84,7 @@ const login = async (req, res) => {
 
     res.cookie('token', token, {
       httpOnly: true,
-      secure: process.env.NODE_ENV === 'production', // secure in prod only
+      secure: process.env.NODE_ENV === 'production',
       sameSite: 'strict',
       maxAge: 86400000, // 1 day
     });
@@ -96,8 +95,7 @@ const login = async (req, res) => {
         id: user.id,
         username: user.username,
         role: user.role,
-      },
-      access_token: token, // optional: remove if relying only on cookie
+      }
     });
   } catch (err) {
     console.error('Login error:', err);

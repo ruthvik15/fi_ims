@@ -4,7 +4,7 @@ exports.getUsersPaginated = async (req, res) => {
   const page = parseInt(req.query.page, 10);
   const limit = parseInt(req.query.limit, 10);
 
-  // Validate page and limit
+  
   const validPage = !isNaN(page) && page > 0 ? page : 1;
   const validLimit = !isNaN(limit) && limit > 0 ? limit : 10;
   const offset = (validPage - 1) * validLimit;

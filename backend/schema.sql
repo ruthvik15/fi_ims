@@ -3,12 +3,12 @@ CREATE TABLE IF NOT EXISTS users (
     id SERIAL PRIMARY KEY,
     username VARCHAR(255) UNIQUE NOT NULL,
     password_hash VARCHAR(255) NOT NULL,
-    role VARCHAR(50) NOT NULL DEFAULT 'user', -- 'user' or 'admin'
+    role VARCHAR(50) NOT NULL DEFAULT 'user', 
     created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
     updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 
--- PRODUCTS TABLE
+
 CREATE TABLE IF NOT EXISTS products (
     id SERIAL PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
@@ -23,11 +23,11 @@ CREATE TABLE IF NOT EXISTS products (
     created_by INTEGER REFERENCES users(id) ON DELETE SET NULL
 );
 
--- INDEXES for performance
+
 CREATE INDEX IF NOT EXISTS idx_products_sku ON products(sku);
 CREATE INDEX IF NOT EXISTS idx_products_created_by ON products(created_by);
 
--- TRIGGER FUNCTION FOR updated_at
+
 CREATE OR REPLACE FUNCTION trigger_set_timestamp()
 RETURNS TRIGGER AS $$
 BEGIN
@@ -36,7 +36,7 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
--- TRIGGERS TO AUTO-UPDATE `updated_at`
+
 CREATE TRIGGER set_timestamp_users
 BEFORE UPDATE ON users
 FOR EACH ROW
