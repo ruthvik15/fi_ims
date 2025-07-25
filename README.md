@@ -159,3 +159,9 @@ cd backend
 docker compose up --build
 ```
 
+<img width="1642" height="850" alt="image" src="https://github.com/user-attachments/assets/7ba48c1f-650f-48b6-a723-9c579a37ea29" />
+<img width="1865" height="908" alt="image" src="https://github.com/user-attachments/assets/d53ee07d-3e38-4d9f-84ab-efc619e7cca2" />
+<img width="1863" height="789" alt="image" src="https://github.com/user-attachments/assets/197b91ab-555d-4fa1-8ba0-7bed3aba2f06" />
+<img width="1652" height="836" alt="image" src="https://github.com/user-attachments/assets/ec8d1424-1bd0-4c1d-84ab-4d3915dd70e4" />
+
+
