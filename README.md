@@ -41,6 +41,57 @@ The API supports secure user authentication, role-based access control, full CRU
 - Swagger UI available at `/docs`
 - Describes request/response formats and auth requirements
 
+ ## 🧭 API Routes
+
+
+  <summary><strong>🔐 Auth Routes</strong></summary>
+
+| Method | Endpoint     | Description                      | Auth Required |
+|--------|--------------|----------------------------------|----------------|
+| POST   | `/register`  | Register a new user              | ❌             |
+| POST   | `/login`     | Log in a user                    | ❌             |
+| GET    | `/me`        | Get current logged-in user       | ✅             |
+| POST   | `/logout`    | Log out the current user         | ✅             |
+
+
+<br />
+
+
+  <summary><strong>📦 Product Routes</strong></summary>
+
+| Method | Endpoint                     | Description                                   | Auth Required |
+|--------|------------------------------|-----------------------------------------------|----------------|
+| POST   | `/products`                  | Add a new product                             | ✅             |
+| GET    | `/products`                  | Get paginated list of all products            | ✅             |
+| GET    | `/products/mine`             | Get products created by the current user      | ✅             |
+| GET    | `/products/{id}`             | Get details of a specific product by ID       | ✅             |
+| PUT    | `/products/{id}/quantity`    | Update quantity of a specific product         | ✅ (Creator or Admin) |
+
+
+<br />
+
+
+  <summary><strong>📊 Analytics Routes (Admin Only)</strong></summary>
+
+| Method | Endpoint                            | Description                                | Admin Only |
+|--------|-------------------------------------|--------------------------------------------|------------|
+| GET    | `/products/analytics`               | Get overall product statistics              | ✅         |
+| GET    | `/products/recent`                  | Get recently added products                 | ✅         |
+| GET    | `/products/valuable`                | Get most valuable products (price × qty)    | ✅         |
+| GET    | `/products/category-breakdown`      | Get count/quantity grouped by category      | ✅         |
+
+
+<br />
+
+
+  <summary><strong>👤 User Management (Admin Only)</strong></summary>
+
+| Method | Endpoint     | Description                     | Admin Only |
+|--------|--------------|----------------------------------|------------|
+| GET    | `/users`     | Get paginated list of all users | ✅         |
+
+
+
 ---
 
 ```bash
