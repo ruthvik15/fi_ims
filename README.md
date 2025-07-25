@@ -43,27 +43,49 @@ The API supports secure user authentication, role-based access control, full CRU
 
 ---
 
-## 🚀 Getting Started
-
-
-
-### 📦 Installation
-
 ```bash
-git clone <your-repo-url>
-cd gem_fi  ..
+git clone "https://github.com/ruthvik15/fi_ims"
+cd  fi_ims
+```
+## 🚀 Getting Started
+```
+# Start Frontend
+cd frontend
+npm install
+npm run dev
 
-.env setup
+# In a new terminal, start Backend
+cd backend
+npm install
+npm start
+```
+
+
+
+
+.env 
+```
 # .env
 PORT=8080
 
 # PostgreSQL
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=your_strong_password
-POSTGRES_DB=fi_money
+
+PORT=8080
+
+DB_HOST=localhost
+DB_PORT=5432
+DB_NAME=fi_money
+DB_USER=postgres
+DB_PASSWORD=password_here
 
 # JWT
 JWT_SECRET=this_is_a_very_secure_secret_key
 JWT_EXPIRES_IN=1d
+```
 
+DOCKER SETUP
+```
+cd backend
+docker compose up --build
+```
 
